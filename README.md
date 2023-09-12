@@ -44,7 +44,7 @@ To accurately detect markers or to get accurate pose data, a camera calibration 
 
 Run below commands to perform the camera calibration:
 ```
-cd camera_calibration
+cd distance_cal_ws/camera_calibration/
 mkdir build && cd build
 cmake ../
 make
@@ -64,7 +64,7 @@ Around 30 images should be good enough.
 ### Pose_estimation
 To calculate the distance os an ArUco to the camera, run below code:
 ```
-cd pose_estimation
+cd distance_cal_ws/pose_estimation
 
 mkdir build && cd build
 cmake ../
